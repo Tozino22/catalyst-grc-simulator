@@ -1,0 +1,7 @@
+MFA not enforced on admin console, high, CWE-308, Admin portal at admin.acmehealth.com allows password-only login with no second factor
+TLS 1.0 still permitted, medium, CWE-327, Load balancer accepts deprecated TLS 1.0/1.1 for PHI-carrying endpoints
+Verbose error messages leak stack traces, low, CWE-209, Application 500 pages expose framework version and server file paths
+Outdated JavaScript dependency with known CVEs, high, CWE-1104, Front-end ships jQuery 1.12 with multiple known XSS vulnerabilities
+No human oversight on AI triage decisions, high, , AI symptom-checker auto-routes urgent cases with no clinician review step
+AI training data not privacy-reviewed, medium, , Patient records used to fine-tune the triage model without a documented privacy review
+Model not tested for bias or fairness, medium, , No bias or fairness evaluation performed before deploying the triage model

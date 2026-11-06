@@ -1,0 +1,38 @@
+
+> catalyst-grc-simulator@0.1.0 dev
+> next dev
+
+▲ Next.js 16.2.12 (Turbopack)
+- Local:         http://localhost:3000
+- Network:       http://10.0.0.142:3000
+- Environments: .env.local
+✓ Ready in 1306ms
+⚠ The "middleware" file convention is deprecated. Please use "proxy" instead. Learn more: https://nextjs.org/docs/messages/middleware-to-proxy
+
+○ Compiling /app/[orgId]/controls ...
+ GET /app/b7840f1a-c45e-4b02-b7a2-8dd44e1c6601/controls 200 in 11.9s (next.js: 8.9s, proxy.ts: 565ms, application-code: 2.5s)
+ GET /app/b7840f1a-c45e-4b02-b7a2-8dd44e1c6601/report 200 in 12.5s (next.js: 8.5s, proxy.ts: 613ms, application-code: 3.3s)
+ GET /app/b7840f1a-c45e-4b02-b7a2-8dd44e1c6601 200 in 3.4s (next.js: 2.3s, proxy.ts: 278ms, application-code: 881ms)
+ GET /app/b7840f1a-c45e-4b02-b7a2-8dd44e1c6601/audits 200 in 2.7s (next.js: 2.0s, proxy.ts: 78ms, application-code: 594ms)
+ GET /app/b7840f1a-c45e-4b02-b7a2-8dd44e1c6601/audits 200 in 710ms (next.js: 31ms, proxy.ts: 235ms, application-code: 444ms)
+ GET /app/b7840f1a-c45e-4b02-b7a2-8dd44e1c6601/tasks 200 in 3.1s (next.js: 2.4s, proxy.ts: 186ms, application-code: 516ms)
+ GET /app/b7840f1a-c45e-4b02-b7a2-8dd44e1c6601/frameworks 200 in 2.9s (next.js: 2.1s, proxy.ts: 170ms, application-code: 605ms)
+ GET /app/b7840f1a-c45e-4b02-b7a2-8dd44e1c6601 200 in 1257ms (next.js: 40ms, proxy.ts: 313ms, application-code: 904ms)
+ GET /app/b7840f1a-c45e-4b02-b7a2-8dd44e1c6601/audits 200 in 726ms (next.js: 35ms, proxy.ts: 215ms, application-code: 477ms)
+ GET /app/b7840f1a-c45e-4b02-b7a2-8dd44e1c6601/audits 200 in 720ms (next.js: 38ms, proxy.ts: 199ms, application-code: 484ms)
+ GET /app/b7840f1a-c45e-4b02-b7a2-8dd44e1c6601/frameworks 200 in 901ms (next.js: 32ms, proxy.ts: 254ms, application-code: 615ms)
+ POST /app/b7840f1a-c45e-4b02-b7a2-8dd44e1c6601/frameworks 200 in 2.4s (next.js: 338ms, proxy.ts: 472ms, application-code: 1617ms)
+  └─ ƒ enableFramework("b7840f1a-c45e-4b02-b7a2-8dd44e1c6601", "nistairmf") in 179ms app/app/[orgId]/frameworks/actions.ts
+ POST /app/b7840f1a-c45e-4b02-b7a2-8dd44e1c6601/frameworks 200 in 1196ms (next.js: 29ms, proxy.ts: 244ms, application-code: 923ms)
+  └─ ƒ enableFramework("b7840f1a-c45e-4b02-b7a2-8dd44e1c6601", "nistcsf") in 136ms app/app/[orgId]/frameworks/actions.ts
+ GET /app/b7840f1a-c45e-4b02-b7a2-8dd44e1c6601 200 in 1074ms (next.js: 31ms, proxy.ts: 241ms, application-code: 801ms)
+ GET /app/b7840f1a-c45e-4b02-b7a2-8dd44e1c6601/audits 200 in 2.6s (next.js: 30ms, proxy.ts: 2.2s, application-code: 411ms)
+ GET /app/b7840f1a-c45e-4b02-b7a2-8dd44e1c6601/report 200 in 997ms (next.js: 31ms, proxy.ts: 181ms, application-code: 785ms)
+ GET /app/b7840f1a-c45e-4b02-b7a2-8dd44e1c6601 200 in 1239ms (next.js: 38ms, proxy.ts: 270ms, application-code: 931ms)
+ GET /app/b7840f1a-c45e-4b02-b7a2-8dd44e1c6601/audits 200 in 1330ms (next.js: 35ms, proxy.ts: 559ms, application-code: 736ms)
+ GET /app/b7840f1a-c45e-4b02-b7a2-8dd44e1c6601 200 in 893ms (next.js: 29ms, proxy.ts: 74ms, application-code: 790ms)
+ GET /app/b7840f1a-c45e-4b02-b7a2-8dd44e1c6601/report 200 in 1031ms (next.js: 29ms, proxy.ts: 202ms, application-code: 800ms)
+ GET /app/b7840f1a-c45e-4b02-b7a2-8dd44e1c6601 200 in 1062ms (next.js: 31ms, proxy.ts: 183ms, application-code: 848ms)
+ GET /app/b7840f1a-c45e-4b02-b7a2-8dd44e1c6601/report 200 in 848ms (next.js: 30ms, proxy.ts: 55ms, application-code: 763ms)
+ GET /app/b7840f1a-c45e-4b02-b7a2-8dd44e1c6601 200 in 1128ms (next.js: 29ms, proxy.ts: 226ms, application-code: 873ms)
+ GET /app/b7840f1a-c45e-4b02-b7a2-8dd44e1c6601/tasks 200 in 398ms (next.js: 29ms, proxy.ts: 77ms, application-code: 293ms)
