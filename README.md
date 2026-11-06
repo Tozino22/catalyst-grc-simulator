@@ -6,7 +6,7 @@ criteria it breaks.
 
 Multi-tenant, consulting-first. **Next.js 15 (App Router) + Supabase + TypeScript.**
 
-Built by **Tosin Aina** — CISSP, CISA, CRISC, ISO/IEC 27001 Lead Auditor, ISACA AAISM.
+Built by **Tosin Aina** — CISSP, CISA, CRISC, ISO/IEC 27001 Lead Auditor.
 
 ---
 
